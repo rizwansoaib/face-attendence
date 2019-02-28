@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>show</title>
+</head>
+<body>
+
+
+<table style="width:100%; text-align:center;" border="1">
+    <tr>
+          <th>SR. NO.</th>
+          <th>ROLL NO.</th>
+          <th>NAME</th>
+          <th>COMPUTER NETWORK</th>
+          <th>COMPILER DESIGN</th>
+          <th>WEB TECHNOLOGY</th>
+          <th>INDUSTRIAL MANAGEMENT</th>
+          <th>COMPUTER GRAPHICS</th>
+          <th>TOTAL</th>
+    </tr>
+
+
+
+
+{% for student in students %}
+
+<tr>
+
+
+    <td>{{student.0}}</td>
+     <td>{{student.1}}</td>
+     <td>{{student.2}}</td>
+     <td>{{student.3}}</td>
+     <td>{{student.4}}</td>
+     <td>{{student.5}}</td>
+     <td>{{student.6}}</td>
+     <td>{{student.7}}</td>
+      <td>{{student.8}}</td>
+
+
+
+
+
+</tr>
+
+{% endfor %}
+    </table>
+</body>
+</html>
