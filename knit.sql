@@ -423,7 +423,7 @@ CREATE TABLE `stauth` (
 --
 
 INSERT INTO `stauth` (`id`, `roll`, `email`, `password`, `mobile`) VALUES
-(2, '178208', 'rizwansoaib@gmail.com', 'Rizwan@111', '8115168763');
+(2, '178208', 'rizwansoaib@gmail.com', 'fuckingpassword', '8115168763');
 
 -- --------------------------------------------------------
 
@@ -470,7 +470,7 @@ CREATE TABLE `tauth` (
 --
 
 INSERT INTO `tauth` (`id`, `username`, `email`, `mobile`, `password`) VALUES
-(1, 'rizwan', 'rizwansoaib@gmail.com', '8115168763', 'Rizwan@111'),
+(1, 'rizwan', 'rizwansoaib@gmail.com', '8115168763', 'fuckingpassword'),
 (2, '1', '1', '1', '1');
 
 --
