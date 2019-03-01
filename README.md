@@ -8,7 +8,7 @@ BUILD IN DJANGO WITH MYSQL DATABASES
 
 ## INSTALLATION
 
-## 1. install awscli in your system: 
+## 1. Install awscli in your system and configure: 
    ### MAC LINUX OR UNIX
      rizwan@ubuntu$ sudo apt-get install awscli
      /* FIND YOUR ACCESS KEY AND SECRET KEY FROM AWS IN SECUIRTY CREDENTIALS */
