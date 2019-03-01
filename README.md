@@ -12,6 +12,12 @@ BUILD IN DJANGO WITH MYSQL DATABASES
    ### MAC LINUX OR UNIX
      rizwan@ubuntu$ sudo apt-get install awscli
      /* FIND YOUR ACCESS KEY AND SECRET KEY FROM AWS IN SECUIRTY CREDENTIALS */
+     rizwan@ubuntu$ aws configure
+     
+     enter details of access key and secret key
+     
+                              or
+                              
      rizwan@ubuntu$ export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE 
      rizwan@ubuntu$ export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY 
      rizwan@ubuntu$ export AWS_DEFAULT_REGION=us-west-2
