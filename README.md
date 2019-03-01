@@ -1,4 +1,6 @@
 # ATTENDENCE SYSTEM WITH AWS REKOGNITION 
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
 BUILD IN DJANGO WITH MYSQL DATABASES 
 
 
