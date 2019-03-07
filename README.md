@@ -28,6 +28,8 @@ BUILD IN DJANGO WITH MYSQL DATABASES
         C:\> setx AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
         C:\> setx AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
         C:\> setx AWS_DEFAULT_REGION=us-west-2
+        
+ ## Coming soon.......
 
 ## FUTURE
  your all contribution are welcome. aws are costly and not scalable due to cost inefficient. we are trying to develop self models using tensorflow,keras,caffe,opencv ANN,MNIST,SVM,LBP haar facenet in web. with accuracy greater than 90%.
