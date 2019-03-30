@@ -29,6 +29,18 @@ BUILD IN DJANGO WITH MYSQL DATABASES
         C:\> setx AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
         C:\> setx AWS_DEFAULT_REGION=us-west-2
         
+  ## 2. Import knit.sql DB
+   ### Mysql CommandLine
+      mysql>create database db_name;
+      mysql> use db_name;
+      mysql> source knit.sql;
+   ### Terminal
+      mysql -u username -p password db_name < knit.sql
+   ### Windows Command Prompt
+     mysql -p -u [user] [database] < knit.sql
+   ### PowerShell
+      C:\> cmd.exe /c "mysql -u root -p db_name < knit.sql"
+        
  ## Coming soon.......
 
 ## FUTURE
