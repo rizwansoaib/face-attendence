@@ -41,7 +41,7 @@ BUILD IN DJANGO WITH MYSQL DATABASES
    ### PowerShell
       C:\> cmd.exe /c "mysql -u root -p db_name < knit.sql" 
  ## 3. Add Databases in Django Project
-   #### Go to face-attendence/web/web/settings.py edit
+   #### Go to face-attendence/web/web/settings.py 
      Replace NAME,USER,PASSWORD with your credentials
      
      
