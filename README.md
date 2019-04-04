@@ -86,9 +86,7 @@ BUILD IN DJANGO WITH MYSQL DATABASES
 ![cropping-class](https://user-images.githubusercontent.com/29729380/55559581-23998b00-570c-11e9-8901-f99c15209b70.gif)
 
  ### Now Matches face
-      its like nested loop, outer for loop student images singe person  so no. of student in our class and inner for loop   
-      no. of faces detect in uploaded images so no. of faces detect in class photos.
-      Now comparison started and give output..
+
       
   ![matching](https://user-images.githubusercontent.com/29729380/55560318-9820f980-570d-11e9-8cfc-960ed3be6914.gif)
 
