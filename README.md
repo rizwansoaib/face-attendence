@@ -64,9 +64,10 @@ BUILD IN DJANGO WITH MYSQL DATABASES
 
  ### Take class images and Upload it on our website-
   ![1](https://user-images.githubusercontent.com/29729380/55557299-32317380-5707-11e9-87ed-53bbc0f0edad.jpg)
+  
+  #### We are taking this photo as example
 ![4](https://user-images.githubusercontent.com/29729380/55557345-470e0700-5707-11e9-9a77-1d524236eb54.jpg)
 
-![op](https://user-images.githubusercontent.com/29729380/55557397-6147e500-5707-11e9-8c7e-33b70fc4829d.jpg)
 ![s3](https://user-images.githubusercontent.com/29729380/55557438-702e9780-5707-11e9-8615-aee9c61a404a.gif)
 ![server](https://user-images.githubusercontent.com/29729380/55557471-7d4b8680-5707-11e9-8c74-ee60d52b4ec1.gif)
 
@@ -74,7 +75,8 @@ BUILD IN DJANGO WITH MYSQL DATABASES
 
      e.g. photo
  ### Our server stored images of student 
-      s3 photos
+   ![op](https://user-images.githubusercontent.com/29729380/55557397-6147e500-5707-11e9-8c7e-33b70fc4829d.jpg)
+
  ### Both images analyzing face detect faces and crop them
       
       analyze,crop
