@@ -57,12 +57,8 @@ BUILD IN DJANGO WITH MYSQL DATABASES
    
         
 
-## Developer :
-### 1. Rizwan Ahmad
-### 2. Ghulam Mohiyuddin
-### 3. Shailesh Yadav
 
-## COMMING SO9M...
+## COMMING SOON ...
 
 ## FUTURE
  your all contribution are welcome. aws are costly and not scalable due to cost inefficient. we are trying to develop self models using tensorflow,keras,caffe,opencv ANN,MNIST,SVM,LBP haar facenet in web. with accuracy greater than 90%.
