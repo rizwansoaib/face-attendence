@@ -72,13 +72,15 @@ BUILD IN DJANGO WITH MYSQL DATABASES
 
 
 
-     e.g. photo
+   
  ### Our server stored images of student 
   ![s3](https://user-images.githubusercontent.com/29729380/55557438-702e9780-5707-11e9-8615-aee9c61a404a.gif)
 
  ### Both images analyzing face detect faces and crop them
+  ![gif](https://user-images.githubusercontent.com/29729380/55559048-fe584d00-570a-11e9-9907-5291e0e8d72b.gif)
+
+
    #### Analyzing 
-   ![server](https://user-images.githubusercontent.com/29729380/55557471-7d4b8680-5707-11e9-8c74-ee60d52b4ec1.gif)
    ![face_detectav](https://user-images.githubusercontent.com/29729380/55557973-b6d0c180-5708-11e9-9e89-7331049bf5c0.jpg)
    ![op](https://user-images.githubusercontent.com/29729380/55558016-cc45eb80-5708-11e9-9590-f76510b6688e.jpg)
 
