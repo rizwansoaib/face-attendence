@@ -63,27 +63,27 @@ BUILD IN DJANGO WITH MYSQL DATABASES
 ## Mechanism- 
 
  ### Take class images and Upload it on our website-
-  ![1](https://user-images.githubusercontent.com/29729380/55557299-32317380-5707-11e9-87ed-53bbc0f0edad.jpg)
-  ![op](https://user-images.githubusercontent.com/29729380/55557397-6147e500-5707-11e9-8c7e-33b70fc4829d.jpg)
+  ![class](https://user-images.githubusercontent.com/29729380/55557299-32317380-5707-11e9-87ed-53bbc0f0edad.jpg)
+  ![faceclass](https://user-images.githubusercontent.com/29729380/55557397-6147e500-5707-11e9-8c7e-33b70fc4829d.jpg)
 
   
   #### We are taking this photo as example
-![4](https://user-images.githubusercontent.com/29729380/55557345-470e0700-5707-11e9-9a77-1d524236eb54.jpg)
+![example](https://user-images.githubusercontent.com/29729380/55557345-470e0700-5707-11e9-9a77-1d524236eb54.jpg)
 
 
 
    
  ### Our server stored images of student 
-  ![s3](https://user-images.githubusercontent.com/29729380/55557438-702e9780-5707-11e9-8615-aee9c61a404a.gif)
+  ![s3_images](https://user-images.githubusercontent.com/29729380/55560046-087b4b00-570d-11e9-9126-2f4a9550423e.gif)
 
  ### Both images analyzing and detect faces and crop them
- ![output_Bzv26](https://user-images.githubusercontent.com/29729380/55559239-69a21f00-570b-11e9-85c6-acaa2ddf2e4b.gif)
+ ![output](https://user-images.githubusercontent.com/29729380/55559239-69a21f00-570b-11e9-85c6-acaa2ddf2e4b.gif)
 
 
 #### Cropping face
- ![output_kDfM4x](https://user-images.githubusercontent.com/29729380/55559774-8db23000-570c-11e9-9aca-0ffe66515a72.gif)
+ ![cropping-student](https://user-images.githubusercontent.com/29729380/55559774-8db23000-570c-11e9-9aca-0ffe66515a72.gif)
    
-![output_NhN7O](https://user-images.githubusercontent.com/29729380/55559581-23998b00-570c-11e9-8901-f99c15209b70.gif)
+![cropping-class](https://user-images.githubusercontent.com/29729380/55559581-23998b00-570c-11e9-8901-f99c15209b70.gif)
 
  ### Now Matches face
       its like nested loop, outer for loop student images singe person  so no. of student in our class and inner for loop   
