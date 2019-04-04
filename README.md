@@ -77,7 +77,7 @@ BUILD IN DJANGO WITH MYSQL DATABASES
   ![s3](https://user-images.githubusercontent.com/29729380/55557438-702e9780-5707-11e9-8615-aee9c61a404a.gif)
 
  ### Both images analyzing face detect faces and crop them
-  ![gif](https://user-images.githubusercontent.com/29729380/55559048-fe584d00-570a-11e9-9907-5291e0e8d72b.gif)
+ ![output_Bzv26](https://user-images.githubusercontent.com/29729380/55559239-69a21f00-570b-11e9-85c6-acaa2ddf2e4b.gif)
 
 
    #### Analyzing 
