@@ -76,15 +76,16 @@ BUILD IN DJANGO WITH MYSQL DATABASES
  ### Our server stored images of student 
   ![s3](https://user-images.githubusercontent.com/29729380/55557438-702e9780-5707-11e9-8615-aee9c61a404a.gif)
 
- ### Both images analyzing face detect faces and crop them
+ ### Both images analyzing and detect faces and crop them
  ![output_Bzv26](https://user-images.githubusercontent.com/29729380/55559239-69a21f00-570b-11e9-85c6-acaa2ddf2e4b.gif)
 
 
-
+#### Cropping face
+ ![output_kDfM4x](https://user-images.githubusercontent.com/29729380/55559774-8db23000-570c-11e9-9aca-0ffe66515a72.gif)
    
-   ![cropav](https://user-images.githubusercontent.com/29729380/55557990-bfc19300-5708-11e9-8965-e621eee70ce6.jpg)![output_NhN7O](https://user-images.githubusercontent.com/29729380/55559581-23998b00-570c-11e9-8901-f99c15209b70.gif)
+![output_NhN7O](https://user-images.githubusercontent.com/29729380/55559581-23998b00-570c-11e9-8901-f99c15209b70.gif)
 
- ### Now compare images 
+ ### Now Matches face
       its like nested loop, outer for loop student images singe person  so no. of student in our class and inner for loop   
       no. of faces detect in uploaded images so no. of faces detect in class photos.
       Now comparison started and give output..
