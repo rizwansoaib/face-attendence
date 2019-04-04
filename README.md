@@ -82,7 +82,7 @@ BUILD IN DJANGO WITH MYSQL DATABASES
 
 
    
-   ![cropav](https://user-images.githubusercontent.com/29729380/55557990-bfc19300-5708-11e9-8965-e621eee70ce6.jpg) ![photo-cropping](https://user-images.githubusercontent.com/29729380/55557513-96543780-5707-11e9-8572-9227f56ca399.gif)
+   ![cropav](https://user-images.githubusercontent.com/29729380/55557990-bfc19300-5708-11e9-8965-e621eee70ce6.jpg)![output_NhN7O](https://user-images.githubusercontent.com/29729380/55559581-23998b00-570c-11e9-8901-f99c15209b70.gif)
 
  ### Now compare images 
       its like nested loop, outer for loop student images singe person  so no. of student in our class and inner for loop   
