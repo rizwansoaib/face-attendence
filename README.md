@@ -92,6 +92,4 @@ BUILD IN DJANGO WITH MYSQL DATABASES
 
      
 
-## FUTURE
- your all contribution are welcome. aws are costly and not scalable due to cost inefficient. we are trying to develop self models using tensorflow,keras,caffe,opencv ANN,MNIST,SVM,LBP haar facenet in web. with accuracy greater than 90%.
- 
+
