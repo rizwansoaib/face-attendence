@@ -67,13 +67,8 @@ BUILD IN DJANGO WITH MYSQL DATABASES
  ## 5. Run server
     python3 manage.py runserver
      
-      
-        
 
 
-## COMMING SOON ...
-
-## Mechanism- 
 
  ### Take class images and Upload it on our website-
   ![class](https://user-images.githubusercontent.com/29729380/55557299-32317380-5707-11e9-87ed-53bbc0f0edad.jpg)
@@ -86,7 +81,7 @@ BUILD IN DJANGO WITH MYSQL DATABASES
 
 
    
- ### Our server stored images of student 
+ ### we stored images of student in s3 you can do it locally on your server
   ![s3_images](https://user-images.githubusercontent.com/29729380/55560046-087b4b00-570d-11e9-9126-2f4a9550423e.gif)
 
  ### Both images analyzing and detect faces and crop them
