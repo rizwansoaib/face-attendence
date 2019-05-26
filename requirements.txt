@@ -23,7 +23,7 @@ python-dateutil==2.8.0
 python-jose==3.0.1
 python-u2flib-server==5.0.0
 pytz==2018.9
-PyYAML==3.13
+PyYAML==5.1
 rsa==3.4.2
 s3transfer==0.2.0
 simplejson==3.16.0
