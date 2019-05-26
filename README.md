@@ -98,6 +98,22 @@ BUILD IN DJANGO WITH MYSQL DATABASES
       
   ![matching](https://user-images.githubusercontent.com/29729380/55560318-9820f980-570d-11e9-8cfc-960ed3be6914.gif)
 
-     
+## WebApp 
+### Home,Student Register,Teacher Login,Student Login
+![web](https://user-images.githubusercontent.com/29729380/58379963-3754c580-7fc8-11e9-8d0e-6f6e766d34b4.gif)
+
+### Manual Attendance with single click
+
+![manual](https://user-images.githubusercontent.com/29729380/58379961-3754c580-7fc8-11e9-9df7-fbff552a659e.gif)
+
+### Face Attendance Single Image required
+
+
+![face](https://user-images.githubusercontent.com/29729380/58379960-36bc2f00-7fc8-11e9-9c41-dd3fce909e54.gif)
+
+
+### Student Dashboard Attendance Report
+![student](https://user-images.githubusercontent.com/29729380/58379962-3754c580-7fc8-11e9-8b08-4f644d852446.gif)
+
 
 
