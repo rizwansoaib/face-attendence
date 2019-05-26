@@ -54,7 +54,20 @@ BUILD IN DJANGO WITH MYSQL DATABASES
     'USER': 'username',
     'PASSWORD': 'password',
      }}
-   
+     
+ ## 4. Add your S3 name and path
+   #### Go to face-attendence/web/face/views.py in upload function 
+     Replace s3,object key name, with your credentials
+     
+ ## 5. Activate virtual environment
+   #### Go into web directory
+    
+     source env/bin/activate
+     
+ ## 5. Run server
+    python3 manage.py runserver
+     
+      
         
 
 
