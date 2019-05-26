@@ -7,6 +7,10 @@
 
 BUILD IN DJANGO WITH MYSQL DATABASES 
 
+## Video Click to play
+   [![video](https://user-images.githubusercontent.com/29729380/58380408-4cccee00-7fce-11e9-8e21-5e940188162c.jpg)(https://www.youtube.com/watch?v=Y6P1_nWpaUs)
+
+
 
 # USE
 
