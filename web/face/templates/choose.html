@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+{% load static %}
+<title>Select Branch Semester</title>
+<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/css/bootstrap-select.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.4.0/css/bootstrap4-toggle.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.4.0/js/bootstrap4-toggle.min.js"></script>
+<body style="background:  #FFFFFF ;">
+<!--#7FFFD4-->
+<center>
+    <form method="post" action="/at">
+        {%csrf_token%}
+          <div class=" ">
+
+              <h3 style="color=red;margin-left:1200px;">Username:{{usr}}</h3><a style="color=red;margin-left:1200px;" href="/logout"><img
+                  src="{% static 'images/lg.png' %}" width="40px" height="40px" alt=""></a>
+               <h1 class="h4">KNIT ONLINE ATTENDENCE SYSTEM </h1>
+
+
+
+              </p>
+              <p>Branch:
+
+              <select name="branch" class="selectpicker">
+                    <option>---SELECT---</option>
+                  {% for b in branch %}
+                  <option value="{{b.0}}">{{b.1}}</option>
+                  {% endfor %}
+              </select>
+
+              </p>
+              <p>Semester:
+              <select name="sem" class="selectpicker">
+                  <option>---SELECT---</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+
+              </select>
+              </p>
+<!-- Android Style: No radius -->
+<style>
+  .toggle.android { border-radius: 0px;}
+  .toggle.android .toggle-handle { border-radius: 0px; }
+</style>
+        <br>Face Attendance   <input type="checkbox" checked data-toggle="toggle" data-style="android" data-onstyle="info"name="mode" value="face">
+
+
+        <p></p><br><input type="submit" value="SUBMIT" class="btn btn-success" id="submit"> </div>
+    </form>
+        </center>
+</body>
+
+</html>
+

@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 
 import os
+import mfa
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -38,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'face',
+    'mfa'
 ]
 
 MIDDLEWARE = [
@@ -74,15 +76,19 @@ WSGI_APPLICATION = 'web.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
+
+
 DATABASES = {
 'default': {
     'ENGINE': 'django.db.backends.mysql',
-    'NAME': 'knit',
+    'NAME': 'knit1',
     'HOST': '127.0.0.1',
-    'PORT': '3306',
-    'USER': 'root',
-    'PASSWORD': '12345678',
+    'PORT': '3307',
+    'USER': 'rizwan',
+    'PASSWORD': 'Rizwan@111',
 }}
+
+
 
 
 
@@ -105,6 +111,11 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
+
+
+
+
+
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
@@ -124,5 +135,26 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+STATICFILES_DIR=[
+    os.path.join(BASE_DIR,'static')
+]
+STATIC_ROOT=os.path.join(BASE_DIR,'assets')
+
 
 MEDIA_ROOT=os.path.join(BASE_DIR,'face/photos')
+
+
+
+MFA_UNALLOWED_METHODS=()   # Methods that shouldn't be allowed for the user
+MFA_LOGIN_CALLBACK=""      # A function that should be called by username to login the user in session
+MFA_RECHECK=True           # Allow random rechecking of the user
+MFA_RECHECK_MIN=10         # Minimum interval in seconds
+MFA_RECHECK_MAX=30         # Maximum in seconds
+MFA_QUICKLOGIN=True        # Allow quick login for returning users by provide only their 2FA
+MFA_HIDE_DISABLE=('FIDO2',)     # Can the user disable his key (Added in 1.2.0).
+
+TOKEN_ISSUER_NAME="PROJECT_NAME"      #TOTP Issuer name
+
+U2F_APPID="https://localhost"    #URL For U2F
+FIDO_SERVER_ID=u"localehost"      # Server rp id for FIDO2, it the full domain of your project
+FIDO_SERVER_NAME=u"PROJECT_NAME"

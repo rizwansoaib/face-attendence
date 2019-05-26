@@ -13,16 +13,37 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+from django.conf.urls import url
 from face import views
 
+import mfa
+import mfa.TrustedDevice
+
 urlpatterns = [
+
+url(r'^mfa/', include('mfa.urls')),
+url(r'devices/add$', mfa.TrustedDevice.add,name="mfa_add_new_trusted_device"),
+
+
+
     path('admin/', admin.site.urls),
-    path('', views.tlogin),
-    path('login', views.login),
-    path('signup', views.signup),
+    path('', views.index),
+    path('logout', views.index),
+    path('at', views.at),
+
+
+    path('login', views.tlogin),
+    path('about', views.about),
+    path('selsub', views.selsub),
+    path('date', views.date),
+    path('stlogin', views.login),
+    path('register', views.signup),
     path('upload', views.upload,name='upload'),
-    path('chart', views.chart, name='chart'),
+    path('chart', views.chart),
     path('show', views.show, name='show'),
+    path('choose',views.choose),
+
 ]

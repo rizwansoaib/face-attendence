@@ -58,5 +58,70 @@ class csp(models.Model):
 
 
 
+class student(models.Model):
+    sid= models.CharField(max_length=100,primary_key=True)
+    name = models.CharField(max_length=100)
+    email = models.CharField(max_length=100)
+    sem = models.CharField(max_length=100)
+    status = models.CharField(max_length=100)
+    branch_id = models.CharField(max_length=100)
 
+    class Meta:
+        db_table="student"
+
+    def __str__(self):
+        return (self.sid)
+
+
+
+
+
+class teacher(models.Model):
+    tid= models.CharField(max_length=100,primary_key=True)
+    name = models.CharField(max_length=100)
+    email = models.CharField(max_length=100)
+    department = models.CharField(max_length=100)
+
+    class Meta:
+        db_table="teacher"
+
+
+
+
+class subject(models.Model):
+    subject_id= models.CharField(max_length=100,primary_key=True)
+    subject_name = models.CharField(max_length=100)
+
+    class Meta:
+        db_table="subject"
+    def __str__(self):
+        return (self.subject_name)
+
+
+class branch(models.Model):
+    branch_id = models.CharField(max_length=100,primary_key=True)
+    branch_name = models.CharField(max_length=100)
+
+    class Meta:
+        db_table = "branch"
+
+    def __str__(self):
+        return (self.branch_name)
+
+class attendance(models.Model):
+    branch_id = models.CharField(max_length=100)
+    student_id = models.CharField(max_length=100)
+    sem = models.CharField(max_length=100)
+
+    teacher_id = models.CharField(max_length=100)
+    subject_id = models.CharField(max_length=100)
+    date = models.CharField(max_length=100)
+    present = models.CharField(max_length=100)
+
+
+    class Meta:
+        db_table = "attendance"
+
+    def __str__(self):
+        return (self.date)
 

@@ -1,0 +1,6 @@
+{% extends "mfa_auth_base.html" %}
+{% block content %}
+    <br/>
+<br/>
+{% include 'FIDO2/recheck.html' with mode='auth' %}
+{% endblock %}

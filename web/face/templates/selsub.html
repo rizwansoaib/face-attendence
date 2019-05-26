@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Select Subject Date</title>
+</head>
+<body style="background: #FFFFFF;">
+
+{% load static %}
+
+
+
+
+<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/css/bootstrap-select.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js"></script>
+  <h3 style="color=red;margin-left:1200px;">Username:{{usr}}</h3><a style="color=red;margin-left:1250px;" href="/logout"><img
+                  src="{% static 'images/lg.png' %}" width="40px" height="40px" alt=""></a>
+<center style="margin-top:5%">
+
+<h1 style="color:green;">Select Subject and Date</h1><br>
+<form  method="post" action="/date">{%csrf_token%}
+ Subject:<select name="sub" id="" class="selectpicker" >
+    {% for branch in x %}
+
+    <option value="{{branch.0}}">{{branch.1}}</option>
+    {% endfor %}
+</select><br><p>
+
+    </p>
+
+ Date: <input type="date" name="date"><br>
+
+    <input type="submit" value="Submit" class="btn btn-success" id="submit">
+
+
+
+    </form></center>
+
+</body>
+</html>

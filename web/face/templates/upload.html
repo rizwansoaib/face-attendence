@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Upload photo</title>
+  <title> :Upload Image: </title>
   
   
   <style type="text/css">
@@ -88,7 +88,9 @@ form button:active{
  <h1 style="color:#42f4eb;box-shadow:5px 0px 10px black; float:right;">Welcome {{ user.username }}</h1>
  {% endif %}
 
-  <form  method="POST" enctype="multipart/form-data">{% csrf_token %}
+  <form  method="POST" enctype="multipart/form-data" action="">{% csrf_token %}
+
+
 
 
   <input name="document" type="file" accept=".png, .jpg, .jpeg" id="fileupload">

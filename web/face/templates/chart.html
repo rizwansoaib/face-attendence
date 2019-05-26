@@ -2,10 +2,18 @@
 <html>
 <head>
 <meta charset="UTF-8">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+    <title>{{date}}  {{b.1}}</title>
 <script>
 window.onload = function () {
 
-var Total=42;
+var Total=72;
 
 var Present=document.getElementById("present").value;
 var Absent=Total-Present;
@@ -22,7 +30,7 @@ var chart = new CanvasJS.Chart("chartContainer", {
   },
   subtitles: [{
     text: "COMPUTER SCIENCE 3RD YEAR, 2019-20",
-    fontSize: 16
+    fontSize: 20
   }],
   data: [{
     type: "pie",
@@ -51,6 +59,9 @@ function explodePie(e) {
 </script>
 </head>
 <body>
+<input type="button" onclick="printDiv('printableArea')" value="Print" style="margin-left:1250px;margin-top:40px"/>
+
+
 
 <input id="present" name="present" type="hidden" value={{b.0}}>
 <div id="chartContainer" style="height: 370px; max-width: 920px; margin: 0px auto;"></div>
@@ -967,25 +978,44 @@ d.arcTo=function(){};d.createPattern=function(a,b){return new I(a,b)};w.prototyp
 /*eslint-enable*/
 /*jshint ignore:end*/
 </script>
+
+
+
+
+<script type="text/javascript">
+
+
+function printDiv(divName) {
+
+     window.print();
+
+
+}
+
+
+</script>
+
+
+
 </div>
 
 
-<h1 align="center"; >BATCH P2 SUBJECT [MINI PROJECT]</h1>
+<h1 align="center"; style="color:#00539c" >{{b.1}}</h1>
 
-<table style="width:100%; text-align:center;" border="1">
-    <tr>
+<table style="width:100%; text-align:center;" border="1" class="table">
+    <tr class="warning">
 
-          <th>ROLL NO.</th>
-          <th>NAME</th>
-          <th>STATUS</th>
+          <th style="text-align:center;">ROLL NO.</th>
+          <th style="text-align:center;">NAME</th>
+          <th style="text-align:center;">STATUS</th>
     </tr>
 
 
 
 
-{% for data in b %}
+{% for data in b.2 %}
 
-<tr>
+<tr class="success">
 
 
     <td>{{data.0}}</td>

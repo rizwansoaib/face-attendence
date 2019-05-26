@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form  method="post" action="/showdate">
+
+
+
+               <h1 class="h4">ATTENDENCE CSE 3RD YR </h1>
+
+              </p>
+              <p>Branch:
+
+              <select name="branch">
+                    <option>---SELECT---</option>
+                  {% for b in branch %}
+                  <option value="{{b.0}}">{{b.1}}</option>
+                  {% endfor %}
+              </select>
+
+              </p>
+              <p>Semester:
+              <select name="sem">
+                  <option>---SELECT---</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="6">7</option>
+                  <option value="7">8</option>
+
+              </select>
+              </p>
+
+
+Select Subject:<select name="sub" id="" >
+    {% for branch in x.0 %}
+
+    <option value="{{branch.0}}">{{branch.1}}</option>
+    {% endfor %}
+</select>
+
+Select Date: <input type="date" name="date">
+                  {%csrf_token%}
+
+
+    <input type="submit" value="submit">
+
+</body>
+</html>

@@ -1,0 +1,244 @@
+
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home KNIT ATTENDANCE PORTAL</title>
+<link href="{% static 'css/bootstrap.css' %}" rel="stylesheet" type="text/css" media="all">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Custom Theme files -->
+<link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css" media="all"/>
+<link href="{% static 'css/style1.css' %}" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Agility  Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--Google Fonts-->
+<link href='https://fonts.googleapis.com/css?family=Marvel:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900' rel='stylesheet' type='text/css'>
+<!--google fonts-->
+<script src="{% static 'js/jquery-1.11.0.min.js' %}"></script>
+<link rel="stylesheet" href="{% static 'css/flexslider.css' %}" type="text/css" media="screen" />
+
+</head>
+<body>
+<!--header strat here-->
+<div class="banner agileits">
+	<div class="header">
+		<div class="container">
+			<div class="header-main">
+				<div class="logo">
+			       <h1><span class="books"></span> <a href="/">KNIT ATTENDANCE </a></h1>
+			    </div>
+				 <div class="top-nav">
+				 	 <span class="menu"> <img src="{% static 'images/icon.png' %}" alt=""></span>
+				     <nav class="cl-effect-21" id="cl-effect-21">   		       											
+							<ul class="res">
+								<li><a href="/" class="active">Home</a></li>
+									
+								<li><a href="/register"  onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Register</a></li>
+								<li><a href="/login"  onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</a></li>
+
+								<li><a href="/about">About Us</a></li>
+							</ul>
+						</nav>
+						<!-- script-for-menu -->
+										 <script>
+										   $( "span.menu" ).click(function() {
+											 $( "ul.res" ).slideToggle( 300, function() {
+											 // Animation complete.
+											  });
+											 });
+										</script>
+						<!-- /script-for-menu -->
+		
+				 </div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="banner-main">
+				 <section class="slider">
+					 <div class="flexslider">
+						<ul class="slides">
+						  <li>
+						  	<div class="banner-main">			  
+								   <h3>Welcome To KAMLA NEHRU INSTITUTE OF TECHNOLOGY</h3>
+						            <p></p>
+								<div class="clearfix"> </div>
+							</div>
+						  </li>
+						  <li>
+						  	<div class="banner-main">			  
+								   <h3>Face Attendance System</h3>
+						           <p>Develped by KNIT Students</p>
+								<div class="clearfix"> </div>
+							</div>
+						  </li>
+						  <li>
+						  	<div class="banner-main">			  
+								   <h3></h3>
+						           <p></p>
+								<div class="clearfix"> </div>
+							</div>
+						  </li>		
+						  <li>
+						  	<div class="banner-main">			  
+								   <h3>KAMLA NEHRU INSTITUTE OF TECHNOLOGY</h3>
+						           <p>An Adavanced Attendance Management System</p>
+								<div class="clearfix"> </div>
+							</div>
+						  </li>			  
+					    </ul>
+					 </div>
+					 <div class="clearfix"> </div>
+            </section>	
+		 </div>
+	 </div>
+   </div>
+</div>
+<!--header end here-->
+<!-- FlexSlider -->
+				  <script defer src="{% static 'js/jquery.flexslider.js' %}"></script>
+				  <script type="text/javascript">
+					$(function(){				 
+					});
+					$(window).load(function(){
+					  $('.flexslider').flexslider({
+						animation: "slide",
+						start: function(slider){
+						  $('body').removeClass('loading');
+						}
+					  });
+					});
+				  </script>
+
+<div class="educate">
+	<div class="container">
+		<div class="education-main">
+			<ul class="ch-grid">
+				 <div class="col-md-3 w3agile">
+					<li>
+						<div class="ch-item">				
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-1">
+									<span class="glyphicon glyphicon-grain" aria-hidden="true"> </span>
+					                <h5>Learning</h5>
+								</div>
+								<div class="ch-info-back">
+									<h3>New Technology</h3>
+									<p>Advanced upcoming technology robotics,autonomus car</p>
+								</div>	
+							</div>
+						</div>
+					</li>
+					</div> 
+					 <div class="col-md-3 w3agile">
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-2">
+									<span class="glyphicon glyphicon-education" aria-hidden="true"> </span>									
+					                <h5>Education</h5>
+								</div>
+								<div class="ch-info-back">
+									<h3>B.Tech and MCA</h3>
+									<p>CSE IT ME CE EE EC</p>
+								</div>
+							</div>
+						</div>
+					</li>
+					</div>
+					 <div class="col-md-3 w3agile">
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-3">
+									<span class="glyphicon glyphicon-hourglass" aria-hidden="true"> </span>
+					                <h5>Time</h5>
+								</div>
+								<div class="ch-info-back">
+									<h3>Fast accurate secure</h3>
+									<p>Quick and secure </p>
+								</div>
+							</div>
+						</div>
+					</li>
+					</div>
+					 <div class="col-md-3 w3agile">
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-4">
+									<span class="glyphicon glyphicon-eye-open" aria-hidden="true"> </span>
+					                <h5>Track Status</h5>
+								</div>
+								<div class="ch-info-back">
+									<h3>Graph based GUI</h3>
+									<p>Percentage pie chart </p>
+								</div>
+							</div>
+						</div>
+					</li>
+					</div>
+					<div class="clearfix"> </div>
+			 </ul>
+		 </div>
+	</div>
+</div>
+
+	  <script type="text/javascript" src="{% static 'js/modernizr.custom.53451.js' %}"></script>
+	<link href="{% static 'css/popuo-box.css' %}" rel="stylesheet" type="text/css" media="all"/>
+	<script src="{% static 'js/jquery.magnific-popup.js' %}" type="text/javascript"></script>
+
+
+
+<script src="{% static 'js/responsiveslides.min.js' %}"></script>
+<script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+      $("#slider2").responsiveSlides({
+        auto: true,
+        pager: true,
+        speed: 300,
+        namespace: "callbacks",
+      });
+    });
+  </script>
+
+
+			<div class="footer-bottom" >
+				<div class="col-md-6 ftr-navg">
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/login">Login</a></li>
+
+						<li><a href="/about">About</a></li>
+					</ul>
+				</div>
+				<div class="col-md-6 copyrights">
+					<p>© 2019 Developed By RIZWAN FAROOQUI</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--footer end here-->			
+</body>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+<!--login register page start from here -->
+
+
+	
