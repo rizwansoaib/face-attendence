@@ -3,7 +3,9 @@
 
 
 # FACE ATTENDENCE WITH AWS REKOGNITION 
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)    [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)    [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html) [![star this repo](http://githubbadges.com/star.svg?user=rizwansoaib&repo=face-attendence)](https://github.com/rizwansoaib/face-attendence)
+[![fork this repo](http://githubbadges.com/fork.svg?user=rizwansoaib&repo=face-attendence)](http://github.com/rizwansoaib/face-attendence/fork)
+
 
 BUILD IN DJANGO WITH MYSQL DATABASES 
 
